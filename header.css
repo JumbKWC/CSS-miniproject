@@ -1,0 +1,522 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .header-tae-1 {
+        max-width: 120rem;
+        height: 56.25rem;
+    }
+
+    .header-tae-1 .body-tae-1 {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        position: relative;
+        width: 100vw;
+        z-index: 10;
+        }
+
+    .header-tae-1 .header-background-image {
+        opacity: 0.1;
+        width: 120rem;
+        height: 56.25rem;
+        position: absolute;
+        z-index: -100;
+    }
+
+    /* Navigation bar */
+    .header-tae-1 nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header-tae-1 .logo {
+        font-size: 3.008rem;
+        font-weight: 700;
+        color: #221314;
+        margin-top: 1.579rem;
+        font-family: 'Baloo Bhai 2', cursive;
+        z-index: 10;
+    }
+
+    .header-tae-1 .dot {
+        color:#FE5B3E;
+        z-index: 10;
+    }
+
+    .header-tae-1 .navigation-menu {
+        width: 27.875rem;
+        height: 1.438rem;
+        font-size: 1.125rem;
+        color: #A8A8A8;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        margin-top: 3.031rem;
+        font-family: 'DM Sans', sans-serif;
+        z-index: 10;
+    }
+
+    .header-tae-1 .home {
+        color: #221314;
+        font-size: 1.125rem;
+        font-weight: 31.25rem;
+        text-decoration: underline;
+        text-decoration-color: #FF6525;
+        text-decoration-thickness: 0.188rem;
+        z-index: 10;
+    }
+
+    .header-tae-1 .contact-us {
+        width: 10.938rem;
+        height: 4rem;
+        color: #FFFFFF;
+        border-radius: 0.938rem;
+        background: linear-gradient(180deg, #FE5B3E 0%, #FE7B49 100%);
+        border:none;
+        margin-top: 1.75rem;
+        font-family: 'DM Sans', sans-serif;
+        z-index: 10;
+    }
+
+    /* Main content */
+    .header-tae-1 .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 56.25rem;
+    }
+
+    .header-tae-1 .fuel-mind {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-tae-1 .fuel-mind-by-travel {
+        font-size: 6.25rem;
+        width: 505px;
+        color: #221314;
+        line-height: 6.875rem;
+        font-family: 'Paytone One', sans-serif;
+        z-index: 10;
+    }
+
+    .header-tae-1 .fuel-mind-content{
+        width: 30.25rem;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        color: #5A7184;
+        margin-top: 1.875rem;
+        font-family: 'DM Sans', sans-serif;
+        z-index: 10;
+    }
+
+    .header-tae-1 .big-circle {
+        width: 37.013rem;
+        height: 35.976rem; 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-tae-1 .popup-wrapper {
+        position: absolute;
+        left: -14%;
+    }
+
+    .header-tae-1 .popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 10.027rem;
+        height: 11.342rem;
+        border-radius: 0.597rem;
+        background: #FFFFFF;
+        box-shadow: 0px 9.55079174041748px 15.917984962463379px 0px rgba(0, 0, 0, 0.06);;
+    }
+
+    .header-tae-1 .popup-bg {
+        margin: 0.844rem;
+        width: 8.383rem;
+        height: 4.931rem;
+        border-radius: 0.398rem;
+        background: #C4C4C4;
+    }
+
+    .header-tae-1 .mountain-scot {
+        width: 4.52rem;
+        height: 0.863rem;
+        text-align: right;
+        vertical-align:middle;
+        font-size: 0.637rem;
+        font-weight: 31.25rem;
+        color: #221314;
+        flex: 0.5;
+    }
+
+    .header-tae-1 .four-circles {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-tae-1 .circle-1 {
+        position: relative;
+        border: 0.318px solid #FFF;
+        left: 12%;
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+        background-color: #C4C4C4;;
+        z-index: 10;
+    }
+
+    .header-tae-1 .circle-2 {
+        position: absolute;
+        border: 0.318px solid #FFF;
+        left: 30%;
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+        background-color: #C4C4C4;;
+        z-index: 10;
+    }
+
+    .header-tae-1 .circle-3 {
+        position: absolute;
+        border: 0.318px solid #FFF;
+        left: 48%;
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+        z-index: 20;
+    }
+
+    .header-tae-1 .circle-4 {
+        position: absolute;
+        border: 0.318px solid #FFF;
+        left: 66%;
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+        background-color: #DEDEDE;;
+        z-index: 30;
+    }
+
+    /* Booking box */
+    .header-tae-1 .booking-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 66.063rem;
+        height: 8.75rem;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 10px 30px 40px 0px rgba(158, 161, 160, 0.10);
+        padding: 10px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .header-tae-1 .location-date-price {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 50%;
+    }
+
+    .header-tae-1 .location {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 20%;
+    }
+
+    .header-tae-1 .date {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 40%;
+        margin-left: 1.25rem;
+    }
+
+    .header-tae-1 .price {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 20%;
+        margin-left: 1.25rem;
+    }
+
+    .header-tae-1 .booking-header {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1rem;
+        color: #A8A8A8;
+    }
+
+    .header-tae-1 .info  {
+        text-align: start;
+        color: #221314;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: 0.75rem;
+    }
+
+    .header-tae-1 .explore {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 11.063rem;
+        height: 4.375rem;
+        color: #FFFFFF;
+        border-radius: 15px;
+        background: linear-gradient(180deg, #FE5B3E 0%, #FE7B49 100%);
+        border:none;
+        margin-right: 2.188rem;
+    }
+
+
+    .header-tae-1 .booking-box-wrapper {
+        position: absolute;
+        right: 12%;
+        bottom: 2rem;
+        z-index: 10;
+    }
+
+    /* white box */
+    .header-tae-1 .footer {
+        position: relative;
+        bottom: 0%;
+        height: 6.188rem;
+        background-color: #FFF;
+        z-index: -10;
+    }
+
+
+    @media only screen and (max-width: 37.5rem) {
+
+        .header-tae-1 .header-background-image {
+            opacity: 0.1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -100;
+        }
+
+
+        .header-tae-1 .header-bg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .header-tae-1 .header-tae-1 {
+            width: 100%;
+        }
+
+        .header-tae-1 nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .header-tae-1 .logo {
+            font-size: 1.771rem;
+            margin-left: 1.498rem;
+            margin-top: 1.063rem;
+        }
+
+        .header-tae-1 .navigation-menu {
+            display: none;
+        }
+
+        .header-tae-1 .contact-us {
+            display: none;
+        }
+
+        .header-tae-1 .big-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 17.688rem;
+            height: 17.188rem;
+            position: relative;
+        }
+
+        .header-tae-1 .eclipse {
+            width: 17.688rem;
+            height: 17.188rem;
+        }
+
+        .header-tae-1 .popup-wrapper {
+            position: absolute;
+            left: -13%;
+            top: 30%;
+        }
+
+        .header-tae-1 .popup {
+            width: 76.705px;
+            height: 86.764px;
+        }
+
+        .header-tae-1 .popup-bg {
+            margin: 6.29px;
+            width: 64.13px;
+            height: 37.724px;
+            border-radius: 3.047px;
+        }
+
+        .header-tae-1 .mountain-scot {
+            text-align: center;
+            vertical-align:middle;
+            font-size: 0.305rem;
+        }
+
+        .header-tae-1 .circle-1 {
+            left: 12%;
+            width: 1rem;
+            height: 1rem;
+            z-index: 10;
+        }
+
+        .header-tae-1 .circle-2 {
+            left: 30%;
+            width: 1rem;
+            height: 1rem;
+            z-index: 20;
+        }
+        
+        .header-tae-1 .circle-3 {
+            left: 48%;
+            width: 1rem;
+            height: 1rem;
+            z-index: 30;
+        }
+        
+        .header-tae-1 .circle-4 {
+            left: 66%;
+            width: 1rem;
+            height: 1rem;
+            z-index: 40;
+        }
+
+        .header-tae-1 .fuel-mind {
+            height: 12.75rem;
+        }
+
+        .header-tae-1 .main {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .header-tae-1 .fuel-mind-by-travel {
+            font-size: 1.875rem;
+            width: 20.438rem;
+            height: 5rem;
+            color: #221314;
+            line-height: 2.5rem;
+            text-align: start;
+            margin-top: 1.5rem;
+        }
+
+        .header-tae-1 .fuel-mind-content{
+            width: 20.438rem;
+            font-size: 1.125rem;
+            line-height: 2.25rem;
+            margin-top: 1rem;
+        } 
+
+        .header-tae-1 .booking-box {
+            flex-direction: column;
+            width: 20.438rem;
+            height: 24.5rem;
+        }
+
+        .header-tae-1 .location-date-price {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 70%;
+            margin-top: 20px;
+        }
+        
+        .header-tae-1 .location {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 20%;
+        }
+        
+        .header-tae-1 .date {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 20%;
+            margin-left: 20px;
+        }
+        
+        .header-tae-1 .price {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 20%;
+            margin-left: 20px;
+        }
+        
+        .header-tae-1 .booking-header {
+            display: flex;
+            justify-content: center;
+            font-size: 1rem;
+            color: #A8A8A8;
+        }
+        
+        .header-tae-1 .info  {
+            text-align: start;
+            color: #221314;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 12px;
+        }
+
+        .header-tae-1 .line {
+            transform: rotate(90deg);
+        }
+
+        .header-tae-1 .explore {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 11.063rem;
+            height: 4.375rem;
+            color: #FFFFFF;
+            border-radius: 15px;
+            background: linear-gradient(180deg, #FE5B3E 0%, #FE7B49 100%);
+            border:none;
+            margin-right: 0px;
+        }
+
+        .header-tae-1 .footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 49px;
+        }
+
+        .header-tae-1 .booking-box-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 20%;
+        }
+    }

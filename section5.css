@@ -1,0 +1,133 @@
+@media only screen and (max-width: 37.5rem) {
+    .main-wrapper-momos-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}
+.main-wrapper-momos-5{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    padding: 10rem 15.8125rem 5.6875rem 15.625rem;
+    width: 120rem;
+    height: 61.6875rem; 
+}
+.main-containner-momos-5{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;  
+}
+.circle-box-momos-5{
+    position: relative;
+    width: 39.5rem;
+    height: 39.5rem;
+    
+    right: 50%;
+}
+.big-circle-momos-5{
+    position: absolute;
+    width: 39.5rem;
+    height: 39.5rem;
+    flex-shrink: 0;
+
+    border-radius: 39.5rem;
+    border: 0.059rem solid #A8A8A8;
+    opacity: 0.5;
+
+    right: 2rem;
+
+}
+.orange-circle-momos-5{
+    position: absolute;
+    width: 34.03rem;
+    height: 34.03rem;
+    flex-shrink: 0;
+
+    border-radius: 34.03rem;
+    background: linear-gradient(180deg, #FE5B3E 0%, #FE7B49 100%);
+
+    right: 3rem;
+    top: 4rem;
+}
+.stripe-1-momos-5{
+    position: absolute;
+    width: 46.849875rem; 
+    height: 2.88275rem;
+    top: 6rem;
+}
+.stripe-2-momos-5{
+    position: absolute;
+    width: 46.849875rem; 
+    height: 2.88275rem;
+    top: 10rem;
+}
+.stripe-3-momos-5{  
+    position: absolute;
+    width: 46.849875rem; 
+    height: 2.88275rem;
+    top: 14rem;
+}
+.stripe-4-momos-5{
+    position: absolute;
+    width: 46.849875rem; 
+    height: 2.88275rem;
+    top: 18rem;
+}
+.stripe-5-momos-5{
+    position: absolute;
+    width: 46.849875rem; 
+    height: 2.88275rem;
+    top: 23rem;
+}
+.stripe-6-momos-5{
+    position: absolute;
+    width: 46.849875rem; 
+    height: 2.88275rem;
+    top: 27rem;
+}
+
+.text-box-momos-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 28.125rem;
+    flex-shrink: 0;
+
+    margin-right: 10rem;
+}
+.title-box-momos-5{
+    color: #221314;
+    font-size: 3rem;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 4.25rem;
+}
+.p-box-momos-5{
+    display: flex;
+    width: 35.688rem;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #221314;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: 0.013rem;
+}
+.sub-text-momos-5{
+    color: #5A7184;
+    font-size: 1.125rem;
+    font-family: DM Sans;
+}
+.icon-box-momos-5{
+    display:flex;
+    flex-direction: row;
+}
+.seperator-momos-5{
+    height: 1rem;
+}

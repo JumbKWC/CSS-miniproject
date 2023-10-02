@@ -1,0 +1,99 @@
+@media only screen and (max-width: 37.5rem){
+    .main-wrapper-momos-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-momos-2:not(#family) {
+        display: none;
+      }
+  }
+  
+.main-wrapper-momos-2{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 120rem;
+    height: 40.938rem;
+    padding: 4.4375rem 15.625rem 6.625rem 15.5625rem;
+    background-color: rgb(255, 255, 255);
+}
+.title-box-container-momos-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-momos-2{
+    color: #221314;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 0;
+    color: #221314;
+    font-size: 3rem;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 4.25rem;
+}
+.arrow-box-momos-2{
+    display: flex;
+    justify-content: flex-end;
+
+    color: #FE5B3E;
+    text-align: right;
+    font-size: 1.125rem;
+    font-family: DM Sans;
+    font-weight: 700;
+    
+}
+.box-containner-momos-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.box-momos-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20.781rem;
+    height: 17rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    border: 0.063rem solid #F0EDED;
+    background: #FFF;
+}
+#hunting.box-momos-2  {
+    box-shadow: 0.3125rem 1.875rem 3.5079731941rem 0rem rgba(55, 55, 55, 0.11);
+}
+.icon-containner-momos-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    flex-shrink: 0;
+    border-radius: 1.26rem;
+    background: rgba(254, 91, 62, 0.10);
+}
+.text-containner-momos-2{
+    color: #221314;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 0.013rem;
+}
+.seperator-momos-2{
+    height: 1rem;
+}
+.subtext-containner-momos-2{
+    color: #5A7184;
+    text-align: center;
+    font-size: 1.125rem; 
+    font-family: Poppins;
+    line-height: 1.75rem; 
+}

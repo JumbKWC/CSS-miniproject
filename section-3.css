@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: calc(60% + 0.8vmin);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+.container-nice-3 {
+    width: 120rem;
+    height: 100vh;
+    position: relative;
+}
+
+.header-nice-3 {
+    color: #221314;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-nice-3 {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.box-nice-3 {
+    position: relative;
+    width: 18.75rem;
+    height: 23.75rem;
+    margin: 0rem 0.8rem;
+    flex-wrap: wrap;
+}
+
+.box-2-nice-3 {
+    align-self: center;
+}
+
+.price-area-nice-3 {
+    position: relative;
+    background-color: #C4C4C4;
+    height: 85%;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: right;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.price-area-nice-3:hover {
+    background-color: #d5d5d5;
+}
+
+.price-area-nice-3:active {
+    background-color: #b9b9b9;
+}
+
+.detail-area-nice-3 {
+    height: 15%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.7rem;
+    padding-right: 1rem;
+}
+
+.location-icon-nice-3 {
+    height: 1rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+    font-size: 1rem;
+}
+
+.travel-place-nice-3 {
+    color: #221314;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.travel-place-nice-3:hover {
+    color:#60393c
+}
+
+.travel-place-nice-3:active {
+    color: #120a0a;
+}
+
+.travel-duration-nice-3 {
+    font-size: 0.8rem;
+    color: #5A7184;
+}
+
+.star-rate-nice-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.star-icon-nice-3 {
+    height: 0.8rem;
+    margin-right: 0.2rem;
+}
+
+.button-area-nice-3 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.view-button-nice-3 {
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    background-color: #fe5f3f;
+    border-radius: 0.8rem;
+    margin-top: 1.5rem;
+    padding-left: 1.6rem;
+    text-align: left;
+    position: relative;
+}
+
+.view-button-nice-3:hover {
+    background-color: #ff836a;
+}
+
+.view-button-nice-3:active {
+    background-color: #ff4d2a;
+}
+
+.right-arrow-nice-3 {
+    position: absolute;
+    bottom: 1rem;
+    left: 6rem;
+}
+
+@media only screen and (max-width: 37.5rem) {
+
+    .box-2-nice-3, .box-3-nice-3 {
+        display: none;
+    }
+
+    .header-nice-3 {
+        align-items: end;
+    }
+
+    .box-1-nice-3 {
+        width: 95%;
+        height: 95%;
+    }
+
+    .price-area-nice-3 {
+        font-size: 2rem;
+        border-radius: 1.5rem;
+    }
+
+    .left-detail-area-nice-3 {
+        padding-left: 0.4rem;
+    }
+
+    .travel-place-nice-3 {
+        font-size: 1.7rem;
+    }
+
+    .travel-duration-nice-3 {
+        font-size: 1.2rem;
+    }
+
+    .location-icon-nice-3 {
+        height: 1.4rem;
+        top: 1.3rem;
+        right: 5rem;
+    }
+
+    .star-icon-nice-3 {
+        height: 1.5rem;
+        margin-right: 0.3rem;
+    }
+
+    .view-button-nice-3 {
+        width: 14rem;
+        height: 6rem;
+        font-size: 1.3rem;
+        border-radius: 1.5rem;
+        padding-left: 3rem;
+    }
+
+    .right-arrow-nice-3 {
+        top: 2.1rem;
+        left: 9rem;
+    }
+}

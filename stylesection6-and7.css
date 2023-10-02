@@ -1,0 +1,370 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+/* @media screen and (max-width: 600px) {
+    .footer {
+        width: 43.125rem;
+        height: 5.905rem;
+        margin-left: 12.625rem;
+        margin-top: 44.375rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 6px 4px 6px 4px;
+    }
+
+  } */
+
+  
+
+/* FONTS SECTION */
+
+@font-face {
+    font-family: 'Poppins' ;
+    src: url(font-section6and7\Poppins\Poppins-Regular.ttf);
+}
+
+.top-visiting {
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #221314;
+}
+
+.place-and-year {
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #221314;
+}
+
+.mexico-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: #221314;
+}
+
+.france-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: #221314;
+}
+
+.australia-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: #221314;
+}
+
+.tour-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 200;
+    color: #221314;
+}
+
+
+.header-text-sub-Baitoey-6and7 {
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #221314;
+}
+
+.company-footer-name-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #221314;
+}
+
+.copyright-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #221314;
+}
+
+
+.text-button-Baitoey-6and7 {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.arrow-Baitoey-6and7  {
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+
+
+
+/* FONTS SECTION */
+
+/* LAYOUT AND STYLE SECTION */
+
+.section7-box {
+    max-width: 120rem;
+    max-height: 54rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-forest-Baitoey-6and7 {
+    opacity: 0.3;
+    width: 118.75rem;
+    height: 864rem;
+    position: absolute;
+    z-index: 20;
+}
+
+/* .all-content-box {
+ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 15%;
+   position: absolute;
+   z-index: 30;
+} */
+
+.content-subscribe-box-Baitoey-6and7 {
+    width: 57.125rem;
+    height: 27.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 12.125rem ;
+    margin-top: 11.5rem;
+    position: absolute;
+    z-index: 30;
+}
+
+.text-sub-Baitoey-6and7 {
+    width: 33rem ;
+    display: flex;
+    flex-direction: column
+}
+
+.header-text-sub-Baitoey-6and7 {
+    font-size: 3.5rem;
+}
+
+.form-subscribe-box-Baitoey-6and7 {
+    width: 35.875rem;
+    height: 6.25rem;
+    margin-top: 3.125rem;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: 2;
+    box-shadow: 10px 5px 10px 0px rgba(158, 161, 160, 0.25);
+}
+
+/* .inner-form-subscribe-box { 
+    width: ;
+    height: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.placeholder-box-Baitoey-6and7 {
+    width: 11rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-subscribe-Baitoey-6and7 {
+    opacity: 0.3;
+}
+
+.button-box-Baitoey-6and7 {
+    width: 11.063rem;
+    height: 4.375rem;
+    background-color: rgb(226, 114,73);
+    text-align: center;
+    border-radius: 0.938rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* HOVER IS NOT DONE */
+.button-box-Baitoey-6and7:hover {
+    width: 11.063rem;
+    height: 4.375rem;
+    background-color: lightsalmon;
+    text-align: center;
+    border-radius: 0.938rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-button-Baitoey-6and7 {
+    margin-right: 0.5rem;
+    color: white;
+}
+
+.arrow-Baitoey-6and7 {
+    color: white;
+}
+
+.footer-Baitoey-6and7 {
+    width: 43.125rem;
+    height: 5.905rem;
+    margin-left: 12.625rem;
+    margin-top: 44.375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px 4px 6px 4px;
+}
+
+.contact-information-Baitoey-6and7 {
+    display: flex;
+    flex: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-layer1-Baitoey-6and7 {
+    position: relative;
+}
+
+.google-Baitoey-6and7 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.icon-layer2-Baitoey-6and7 {
+    position: relative;
+}
+
+.twitter-Baitoey-6and7 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.icon-layer3-Baitoey-6and7 {
+    position: relative;
+}
+
+.ig-Baitoey-6and7 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.icon-layer4-Baitoey-6and7 {
+    position: relative;
+}
+
+.linkin-Baitoey-6and7 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+
+.section6-box-Baitoey-6and7 {
+    max-width: 120rem;
+    max-height: 64.875 ;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-box-Baitoey-6and7 {
+    width: 35.875;
+    height: 8.5rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.map-inner-box-Baitoey-6and7 {
+    width: 95.125rem;
+    height: 60.563rem;
+    margin: 2rem;
+    opacity: 0.7;
+    position: relative;
+}
+
+.mexico-box-Baitoey-6and7 {
+    position:absolute;
+    top: 20rem;
+    left: 16rem;
+    text-align: center;
+}
+
+.france-box-Baitoey-6and7 {
+    position: absolute;
+    top: 15rem;
+    left: 44rem;
+    text-align: center;
+}
+
+.australia-box-Baitoey-6and7 {
+    position: absolute;
+    top: 30rem;
+    left: 76rem;
+    text-align: center;
+}
+
+.mexico-item1 {
+    border: 3px solid white;
+    border-radius: 70%;
+    
+}
+
+.mexico-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.france-item1 {
+    border: 3px solid white;
+    border-radius: 70%;
+}
+
+.france-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.australia-item1 {
+    border: 3px solid white;
+    border-radius: 70%;
+}
+
+.australia-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
